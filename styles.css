@@ -1,0 +1,21 @@
+.navmenu{
+    display: flex;
+    margin-left: 24px;
+    margin-right: 24px;;
+}
+.logo{
+    flex:1;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 20px;
+color: #6070FF;
+}
+.menu{
+    flex:1;
+}
+.button{
+    display: flex;
+    justify-content:flex-end;
+}
