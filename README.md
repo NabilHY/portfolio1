@@ -1,8 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio: setup and mobile version skeleton
 
-> Portfolio: setup and mobile version skeleton
+> My Second Project With Microverse
+  In This Project :
+  Created the mobile version of the Portfolio page using a template from Figma.
+  Using skills that we learned which Mainly include Flexbox and embeding image and backgorund inside your code.
+  
 
 
 ## Built With
