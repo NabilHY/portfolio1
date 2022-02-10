@@ -18,7 +18,6 @@
 .menu {
   flex: 1;
   padding-left: 100px;
-
 }
 
 .button {
@@ -94,7 +93,7 @@
 }
 
 .list {
-  list-style-type:none;
+  list-style-type: none;
   display: flex;
   align-content: flex-start;
   padding-left: 0;
