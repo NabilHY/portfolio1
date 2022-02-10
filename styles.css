@@ -1,40 +1,46 @@
-.navmenu{
+.navmenu {
     display: flex;
     margin-left: 24px;
     margin-right: 24px;
-    margin-top:58px;
+    margin-top: 58px;
 }
-.logo{
-    flex:1;
+
+.logo {
+    flex: 1;
     font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 20px;
-color: #6070FF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070FF;
 }
-.menu{
-    flex:1;
-     
+
+.menu {
+    flex: 1;
+
 }
-.button{
+
+.button {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
-.shapes{
+
+.shapes {
     z-index: -1;
     position: absolute;
 }
-.maintext{
+
+.maintext {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     z-index: 2;
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 90px;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
-.name{
+
+.name {
     margin-top: 35px;
     margin-bottom: 0px;
     font-family: Poppins;
@@ -43,40 +49,40 @@ color: #6070FF;
     font-size: 40px;
     line-height: 52px;
     z-index: 2;
-
-
-width: 327px;
-height: 150px;
-left: 24px;
-top: 114px;
+    width: 327px;
+    height: 150px;
+    left: 24px;
+    top: 114px;
 }
-.intro{
+
+.intro {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-        z-index: 2;
-width: 327px;
-height: 146px;
-left: 24px;
-top: 276px;
+    z-index: 2;
+    width: 327px;
+    height: 146px;
+    left: 24px;
+    top: 276px;
 }
-.touch{
+
+.touch {
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-width: 117px;
-height: 24px;
-left: 0px;
-top: 0px;
-z-index: 2;
+    width: 117px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
 
 }
-.icon{
 
+.icon {
     width: 170.17px;
     height: 20px;
     left: 24px;
