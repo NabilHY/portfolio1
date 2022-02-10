@@ -7,7 +7,7 @@
 
 .logo {
   flex: 1;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -41,8 +41,8 @@
 
 .name {
   margin-top: 35px;
-  font-family:Poppins;
-  font-style:normal;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
@@ -54,9 +54,9 @@
 }
 
 .intro {
-  font-family: Poppins;
-  font-style:normal;
-  font-weight:normal;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   z-index: 2;
@@ -67,8 +67,8 @@
 }
 
 .touch {
-  font-family: Poppins;
-  font-style:normal;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
