@@ -23,7 +23,7 @@ Feel free to get it through HTTPS protocol or through SSH
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@NabilHY](https://github.com/NabilHY)
 - Twitter: [@NeoNabil2](https://twitter.com/NeoNabil2)
