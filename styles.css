@@ -1,0 +1,102 @@
+.navmenu {
+  display: flex;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 58px;
+}
+
+.logo {
+  flex: 1;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.menu {
+  flex: 1;
+  padding-left: 100px;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 80px;
+}
+
+.maintext {
+  background-image: url("background/header-shapesmobile@2x.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 90px;
+  justify-content: space-evenly;
+}
+
+.name {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  z-index: 2;
+  width: 327px;
+  height: 150px;
+  left: 24px;
+  top: 114px;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.intro {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  z-index: 2;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
+}
+
+.touch {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  width: 117px;
+  height: 24px;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.icon {
+  height: 20px;
+  left: 24px;
+  top: 470px;
+  z-index: 2;
+  width: 200px;
+}
+
+.icons {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  align-content: flex-start;
+  padding-left: 0;
+  margin-top: 0;
+  margin-left: 20px;
+}
