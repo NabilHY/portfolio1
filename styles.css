@@ -25,8 +25,6 @@
   padding-left: 30px;
 }
 
-
-
 .maintext {
   background-image: url("background/header-shapesmobile@2x.png"); 
   background-repeat: no-repeat;
@@ -40,7 +38,6 @@
 }
 
 .name {
-
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -82,7 +79,6 @@
 }
 
 .icon {
-
   height: 20px;
   left: 24px;
   top: 470px;
@@ -90,7 +86,7 @@
   width: 200px;
 }
 
-.icons{
+.icons {
     padding-left: 8px;
     padding-right: 8px;
 }
