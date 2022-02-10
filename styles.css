@@ -32,9 +32,11 @@ color: #6070FF;
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 90px;
-
+    justify-content:space-evenly;
 }
 .name{
+    margin-top: 35px;
+    margin-bottom: 0px;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -80,5 +82,4 @@ z-index: 2;
     left: 24px;
     top: 470px;
     z-index: 2;
-
 }
