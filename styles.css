@@ -114,7 +114,6 @@
 .content {
   display: flex;
   flex-direction: column;
-  display: flex;
   padding: 16px;
   position: static;
   width: 327px;
@@ -283,7 +282,6 @@
   align-items: center;
   flex-basis: 1;
   padding: 4px 12px;
-  position: static;
   background: #ebebff;
   border-radius: 8px;
 }
@@ -353,7 +351,6 @@
   font-size: 17px;
   line-height: 24px;
   display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
@@ -394,7 +391,6 @@
   background: #f7f7f9;
   border-radius: 8px;
   margin: 12px 0;
-  height: 24px;
   display: flex;
   align-items: center;
   color: #253858;
@@ -440,7 +436,7 @@
   margin: 12px 0;
 }
 
-.collapse{
+.collapse {
   position: static;
   width: 303px;
   height: 66.72px;
@@ -454,20 +450,20 @@
   margin: 12px 0;
 }
 
-.vector{
+.vector {
   padding-left: 140px;
 }
 
-.vector1{
+.vector1 {
   padding-left: 128px;
 }
 
-.vector2{
+.vector2 {
   padding-left: 203px;
 }
 
 .buttonProject:hover {
-    display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -491,28 +487,27 @@
 }
 
 .button1:hover{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    position: static;
-    width: 162px;
-    height: 48px;
-    left: 12px;
-    top: 12px;
-    font-family: Poppins,sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #fff;
-    background: #6070ff;
-    border: 1px solid #6070ff;
-    box-sizing: border-box;
-    border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  position: static;
+  width: 162px;
+  height: 48px;
+  left: 12px;
+  top: 12px;
+  font-family: Poppins,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: #6070ff;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
   }
+
 
