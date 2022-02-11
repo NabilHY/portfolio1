@@ -109,22 +109,20 @@
   background-color: #ebebff;
   margin-top: 114px;
   padding-bottom: 50px;
-
 }
 
 .content {
   display: flex;
   flex-direction: column;
   display: flex;
-  flex-direction: column;
   padding: 16px;
   position: static;
   width: 327px;
   height: 552px;
-  left: calc(50% - 327px/2);
+  left: calc(50% - 327px/ 2);
   top: 114px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   flex: none;
@@ -136,16 +134,14 @@
 .content3 {
   display: flex;
   flex-direction: column;
-  display: flex;
-  flex-direction: column;
   padding: 16px;
   position: static;
   width: 327px;
   height: 552px;
-  left: calc(50% - 327px/2);
+  left: calc(50% - 327px/ 2);
   top: 114px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   flex: none;
@@ -157,16 +153,14 @@
 .content1 {
   display: flex;
   flex-direction: column;
-  display: flex;
-  flex-direction: column;
   padding: 16px;
   position: static;
   width: 327px;
   height: 596px;
-  left: calc(50% - 327px/2);
+  left: calc(50% - 327px/ 2);
   top: 114px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   flex: none;
@@ -179,16 +173,14 @@
 .content4 {
   display: flex;
   flex-direction: column;
-  display: flex;
-  flex-direction: column;
   padding: 16px;
   position: static;
   width: 327px;
   height: 596px;
-  left: calc(50% - 327px/2);
+  left: calc(50% - 327px/ 2);
   top: 114px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   flex: none;
@@ -242,7 +234,6 @@
   font-size: 13px;
   line-height: 16px;
   padding-right: 10px;
-
 }
 
 .text2 {
@@ -251,7 +242,7 @@
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   padding-left: 10px;
 }
 
@@ -261,12 +252,12 @@
   height: 76px;
   left: 0px;
   top: 92px;
-  font-family: Poppins;
+  font-family: Poppins,sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  margin-top: 0px;
+  margin-top: 0;
   margin: 0;
 }
 
@@ -293,7 +284,7 @@
   flex-basis: 1;
   padding: 4px 12px;
   position: static;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
 }
 
@@ -314,8 +305,8 @@
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #396Df2;
-  border: 1px solid #6070FF;
+  color: #396df2;
+  border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
 }
@@ -337,7 +328,7 @@
   position: static;
   width: 327px;
   height: 144px;
-  left: 0px;
+  left: 0;
   top: 113px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -356,7 +347,7 @@
   height: 48px;
   left: 12px;
   top: 12px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -365,8 +356,8 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396Df2;
-  border: 1px solid #6070FF;
+  color: #396df2;
+  border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
 }
@@ -400,9 +391,9 @@
   position: static;
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
-  margin: 12px 0px;
+  margin: 12px 0;
   height: 24px;
   display: flex;
   align-items: center;
@@ -446,8 +437,9 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
+
 .collapse{
   position: static;
   width: 303px;
@@ -459,7 +451,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .vector{
@@ -492,8 +484,8 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
-  border: 1px solid #6070FF;
-  background: #2230D2;
+  border: 1px solid #6070ff;
+  background: #2230d2;
   box-sizing: border-box;
   border-radius: 8px;
 }
@@ -508,7 +500,7 @@
     height: 48px;
     left: 12px;
     top: 12px;
-    font-family: Poppins;
+    font-family: Poppins,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -518,8 +510,8 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
-    background: #6070FF;
-    border: 1px solid #6070FF;
+    background: #6070ff;
+    border: 1px solid #6070ff;
     box-sizing: border-box;
     border-radius: 8px;
   }
