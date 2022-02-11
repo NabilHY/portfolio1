@@ -391,6 +391,7 @@
   display: flex;
   align-items: center;
   color: #253858;
+  padding-left: 10px;
 }
 
 .textlayout {
