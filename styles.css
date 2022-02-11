@@ -391,7 +391,6 @@
   display: flex;
   align-items: center;
   color: #253858;
-  padding-left: 10px;
 }
 
 .textlayout {
@@ -505,4 +504,8 @@
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
+}
+
+.pad {
+  padding-left: 10px;
 }
