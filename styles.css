@@ -118,7 +118,7 @@
   position: static;
   width: 327px;
   height: 552px;
-  left: calc(50% - 327px/ 2);
+  left: calc(50% - 327px / 2);
   top: 114px;
   background: #ffffff;
   border: 1px solid #dfe1e6;
@@ -137,7 +137,7 @@
   position: static;
   width: 327px;
   height: 552px;
-  left: calc(50% - 327px/ 2);
+  left: calc(50% - 327px / 2);
   top: 114px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -156,7 +156,7 @@
   position: static;
   width: 327px;
   height: 596px;
-  left: calc(50% - 327px/ 2);
+  left: calc(50% - 327px / 2);
   top: 114px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -176,7 +176,7 @@
   position: static;
   width: 327px;
   height: 596px;
-  left: calc(50% - 327px/ 2);
+  left: calc(50% - 327px / 2);
   top: 114px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -227,7 +227,7 @@
 }
 
 .text1 {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -236,7 +236,7 @@
 }
 
 .text2 {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -249,14 +249,13 @@
   position: static;
   width: 295px;
   height: 76px;
-  left: 0px;
+  left: 0;
   top: 92px;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  margin-top: 0;
   margin: 0;
 }
 
@@ -280,7 +279,6 @@
   font-size: 12px;
   line-height: 16px;
   align-items: center;
-  flex-basis: 1;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
@@ -350,7 +348,6 @@
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
@@ -419,7 +416,6 @@
   display: flex;
   align-items: center;
   padding-left: 16px;
-
 }
 
 .frame {
@@ -486,7 +482,7 @@
   border-radius: 8px;
 }
 
-.button1:hover{
+.button1:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -496,7 +492,7 @@
   height: 48px;
   left: 12px;
   top: 12px;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -508,6 +504,4 @@
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
-  }
-
-
+}
