@@ -2,10 +2,10 @@
 
 # Portfolio: mobile version 
 
-> My Third Project With Microverse
+> My Fourth Project With Microverse
   In This Project :
-  Created the mobile website section where i will list my portfolio using a template from Figma.
-  Using skills that we learned which include Flexbox and grid layout.
+  Added the Contact me form section using a template from Figma.
+  Using skills that we learned which include Flexbox and HTML forms.
   
 
 
@@ -32,7 +32,9 @@ Feel free to get it through HTTPS protocol or through SSH
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+GitHub: [@d2ndjim](https://github.com/d2ndjim)
+GitHub: [@TahenyBELGUITH](https://github.com/https://github.com/TahenyBELGUITH)
+
 
 Feel free to check the [issues page](../../issues/).
 
