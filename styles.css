@@ -155,8 +155,8 @@ form > button {
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
-  color: #396df2;
   padding: 10px;
+  color: #396df2;
 }
 
 .languages > button {
@@ -241,6 +241,41 @@ form > button {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   color: #396df2;
+  padding: 10px;
+}
+
+form > button:hover {
+  background-color: rgba(34, 48, 210, 1);
+  border: 1px solid #6070ff;
+  color: #fff;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
+
+form > button:active {
+  background-color: #2230d2;
+  border: 1px solid #6070ff;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  color: #fff;
+}
+
+.about > button:hover {
+  background-color: rgba(34, 48, 210, 1);
+  border: 1px solid #6070ff;
+  color: #fff;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
   padding: 10px;
 }
 
@@ -349,29 +384,4 @@ textarea {
   padding-top: 10px;
   margin-bottom: 20px;
   margin-left: 15px;
-}
-
-form > button:hover {
-  background-color: rgba(34, 48, 210, 1);
-  border: 1px solid #7f8cff;
-  font-weight: 500;
-  margin-left: 15px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  color: #fff;
-  padding: 10px;
-}
-
-form > button:active {
-  background-color: #2230d2;
-  font-weight: 500;
-  margin-left: 15px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  color: #fff;
-  padding: 10px;
 }
