@@ -17,6 +17,10 @@ header {
   background-color: #fff;
 }
 
+form > ul > li {
+  list-style: none;
+}
+
 .social > li,
 img {
   padding-right: 10px;
@@ -108,10 +112,6 @@ header > h2 {
   padding-left: 10px;
 }
 
-.form > ul {
-  list-style: none;
-}
-
 .works > ul {
   display: flex;
   font-family: "Poppins", sans-serif;
@@ -147,12 +147,35 @@ header > h2 {
   color: #344563;
 }
 
+form > button {
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #396df2;
+  padding: 10px;
+}
+
 .languages > button {
   display: flex;
   width: 80%;
   margin: 10px 0;
   border-radius: 8px;
   background-color: rgba(247, 247, 249, 1);
+}
+
+.languages > p {
+  font-size: 16px;
+  margin-left: 80px;
+  margin-top: -60px;
+}
+
+.languages > img {
+  margin-left: 15px;
 }
 
 .works > ul > li {
@@ -209,19 +232,6 @@ header > h2 {
   color: #172b4d;
   line-height: 20px;
   width: 90%;
-}
-
-form > button {
-  background-color: #fff;
-  border: 1px solid #6070ff;
-  margin-left: 20px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border-radius: 10px;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  color: #396df2;
-  padding: 10px;
 }
 
 .about > button {
