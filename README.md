@@ -2,8 +2,6 @@
 
 # Portfolio: mobile version 
 
-> My Fourth Project With Microverse
-  In This Project :
   Added the Contact me form section using a template from Figma.
   Using skills that we learned which include Flexbox and HTML forms.
   
