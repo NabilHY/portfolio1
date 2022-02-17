@@ -15,11 +15,11 @@ header {
   background-color: #fff;
 }
 
-header>img {
+header > img {
   display: none;
 }
 
-header>ul {
+header > ul {
   display: flex;
   font-family: "poppins", sans-serif;
   font-weight: 500;
@@ -27,7 +27,7 @@ header>ul {
   list-style: none;
 }
 
-header>ul>li {
+header > ul > li {
   padding: 0 32px;
   align-items: center;
 }
@@ -47,7 +47,7 @@ header>ul>li {
   border-bottom-left-radius: 80px;
 }
 
-.header-section>h1 {
+.header-section > h1 {
   color: #172b4d;
   font-family: "poppins", sans-serif;
   font-weight: bold;
@@ -60,19 +60,19 @@ header>ul>li {
   padding: 150px 150px 12px 150px;
 }
 
-.header-section>p {
+.header-section > p {
   margin-left: 97px;
   padding-left: 150px;
   padding-right: 150px;
 }
 
-.header-section>ul {
+.header-section > ul {
   margin-left: 97px;
   padding-left: 150px;
   padding-right: 150px;
 }
 
-.header-section>span {
+.header-section > span {
   margin-left: 97px;
   padding-left: 150px;
   padding-right: 150px;
@@ -84,7 +84,7 @@ header>ul>li {
   margin-left: 0;
 }
 
-.works>div>ul {
+.works > div > ul {
   padding: 0;
 }
 
@@ -94,25 +94,26 @@ header>ul>li {
   padding: 30px 0;
 }
 
-.works>div {
+.works > div {
   flex: 1;
   width: 50%;
   margin: auto;
 }
 
-.works>div>img {
+.works > div > img {
   width: 85%;
   margin: 20px 0 10px 20px;
 }
 
-.works>div>p {
+.works > div > p {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
+
   /* margin-left: 10px; */
 }
 
-.works>div>ul>li {
+.works > div > ul > li {
   list-style: none;
   justify-content: space-between;
   font-size: 14px;
@@ -127,7 +128,7 @@ header>ul>li {
   margin-bottom: 10px;
 }
 
-.works>div>h2 {
+.works > div > h2 {
   padding-bottom: 20px;
   margin-top: 10px;
 }

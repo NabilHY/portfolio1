@@ -93,6 +93,10 @@ header > h2 {
   border-radius: 10px;
 }
 
+.languages > img {
+  margin-left: 15px;
+}
+
 .works > div > img {
   width: 100%;
   padding: 10px;
@@ -124,11 +128,6 @@ header > h2 {
 .points > ul {
   display: flex;
   font-family: "Poppins", sans-serif;
-  align-items: center;
-  text-align: center;
-}
-
-.points > ul > li {
   align-items: center;
   text-align: center;
 }
@@ -186,14 +185,6 @@ form > button {
   margin-top: -60px;
 }
 
-.languages > img {
-  margin-left: 15px;
-}
-
-/* .JS {
-  padding-left: 80px !important;
-} */
-
 .points > ul > li {
   list-style: none;
   font-size: 14px;
@@ -205,6 +196,8 @@ form > button {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
 }
 
 .project {
@@ -408,12 +401,14 @@ textarea {
   display: flex;
   flex-direction: row;
 }
-.arrows{
+
+.arrows {
   display: flex;
   flex-direction: column;
   padding-left: 100px;
   padding-top: 35px;
 }
+
 .arrows > div {
   display: flex;
   flex-direction: column;
