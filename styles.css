@@ -12,9 +12,13 @@ header {
   display: flex;
   justify-content: space-between;
   padding-left: 24px;
-  padding-top: 58px;
+  padding-top: 25px;
   width: 100%;
   background-color: #fff;
+}
+
+header > ul {
+  display: none;
 }
 
 form > ul > li {
@@ -85,18 +89,21 @@ header > h2 {
 
 .works {
   background-color: #fff;
-  margin: 80px 15px;
+  margin: 80px 35px 80px 35px;
   border-radius: 10px;
 }
 
-.works > img {
-  position: relative;
+.languages > img {
+  margin-left: 15px;
+}
+
+.works > div > img {
   width: 100%;
   padding: 10px;
   margin-bottom: 0;
 }
 
-.works > h2 {
+.works > div > h2 {
   font-family: "Poppins", sans-serif;
   font-size: 32px;
   color: #172b4d;
@@ -104,24 +111,29 @@ header > h2 {
   padding-left: 10px;
 }
 
-.works > div {
+.dots {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+}
+
+.points {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   color: #344563;
   display: flex;
-  padding-left: 10px;
+  flex-direction: column;
 }
 
-.works > ul {
+.points > ul {
   display: flex;
   font-family: "Poppins", sans-serif;
   align-items: center;
   text-align: center;
 }
 
-.works > li {
-  align-items: center;
-  text-align: center;
+.points > p {
+  padding-left: 10px;
 }
 
 .tonic {
@@ -173,23 +185,19 @@ form > button {
   margin-top: -60px;
 }
 
-.languages > img {
-  margin-left: 15px;
-}
-
-.works > ul > li {
+.points > ul > li {
   list-style: none;
-  justify-content: space-between;
   font-size: 14px;
   color: #6070ff;
   background-color: #ebebff;
-  width: 83px;
-  height: 40px;
+  width: 20%;
   margin-left: 10px;
   margin-top: 10px;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
 }
 
 .project {
@@ -197,6 +205,7 @@ form > button {
   border: 1px solid #6070ff;
   margin-left: 10px;
   border-radius: 10px;
+  width: 45%;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   color: #396df2;
@@ -209,13 +218,13 @@ form > button {
   width: 100%;
   margin-top: 40px;
   padding-left: 15px;
-  padding-top: 40%;
+  padding-top: 60px;
   background-color: #fff;
   border-top-right-radius: 80px;
   padding-bottom: 120px;
 }
 
-.about > h1 {
+.about > div > h1 {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 900;
@@ -223,7 +232,7 @@ form > button {
   line-height: 50px;
 }
 
-.about > p {
+.about > div > p {
   font-family: "Poppins", sans-serif;
   margin-top: 20px;
   font-size: 14px;
@@ -233,7 +242,7 @@ form > button {
   width: 90%;
 }
 
-.about > button {
+.about > div > button {
   background-color: #fff;
   border: 1px solid #6070ff;
   margin-bottom: 10px;
@@ -268,7 +277,7 @@ form > button:active {
   color: #fff;
 }
 
-.about > button:hover {
+.about > div > button:hover {
   background-color: rgba(34, 48, 210, 1);
   border: 1px solid #6070ff;
   color: #fff;
@@ -282,8 +291,10 @@ form > button:active {
 .languages {
   font-size: 17px;
   color: black;
+  display: flex;
+  flex-direction: column;
   font-family: "Poppins", sans-serif;
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 15px;
 }
 
@@ -291,7 +302,7 @@ form > button:active {
   margin-left: 150px;
 }
 
-.contact-me > p {
+.contact-me > div > p {
   font-family: "Poppins", serif;
   font-weight: 400;
   font-size: 18px;
@@ -305,7 +316,7 @@ form > button:active {
   padding-top: 25px;
 }
 
-.contact-me > img {
+.contact-me > div > img {
   width: 134px;
   height: 5px;
   margin-left: 110px;
@@ -339,7 +350,7 @@ form > button:active {
   height: 100%;
 }
 
-.contact-me > h2 {
+.contact-me > div > h2 {
   font-family: "Poppins", serif;
   text-align: center;
   font-weight: 900;
@@ -384,4 +395,23 @@ textarea {
   padding-top: 10px;
   margin-bottom: 20px;
   margin-left: 15px;
+}
+
+.deskFrame {
+  display: flex;
+  flex-direction: row;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top: 35px;
+}
+
+.arrows > div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 300px;
+  gap: 35px;
 }
