@@ -415,3 +415,32 @@ textarea {
   padding-top: 300px;
   gap: 35px;
 }
+
+/* Animations and transitions */
+
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.header-section > p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.social {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 10%;
+  }
+}
+
+/* ----------- */
