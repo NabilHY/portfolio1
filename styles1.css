@@ -47,6 +47,11 @@ header > ul > li {
   border-bottom-left-radius: 80px;
 }
 
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
 .header-section > h1 {
   color: #172b4d;
   font-family: "poppins", sans-serif;
@@ -64,6 +69,8 @@ header > ul > li {
   margin-left: 97px;
   padding-left: 150px;
   padding-right: 150px;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .header-section > ul {
@@ -246,16 +253,6 @@ textarea {
 
 /* Animations and transitions */
 
-h1 {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-.header-section > p {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
 .social {
   animation-duration: 3s;
   animation-name: slidein;
@@ -272,4 +269,3 @@ h1 {
 }
 
 /* ----------- */
-
