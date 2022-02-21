@@ -69,6 +69,11 @@ header > ul > li {
   animation-name: slidein;
 }
 
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
 .header-section > h1 {
   color: #172b4d;
   font-family: "poppins", sans-serif;
@@ -87,6 +92,8 @@ header > ul > li {
   padding-left: 150px;
   padding-right: 150px;
   width: 80%;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .header-section > ul {
@@ -268,3 +275,22 @@ textarea {
   font-size: 18px;
   padding: 10px;
 }
+
+/* Animations and transitions */
+
+.social {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 10%;
+  }
+}
+
+/* ----------- */

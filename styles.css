@@ -59,6 +59,11 @@ header > h2 {
   border-bottom-left-radius: 80px;
 }
 
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
 .header-section > h1 {
   font-family: "poppins", sans-serif;
   font-size: 40px;
@@ -73,6 +78,8 @@ header > h2 {
   color: #172b4d;
   padding-top: 20px;
   padding-bottom: 20px;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .connect {
@@ -85,6 +92,8 @@ header > h2 {
 .social {
   display: flex;
   list-style: none;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .works {
@@ -415,3 +424,17 @@ textarea {
   padding-top: 300px;
   gap: 35px;
 }
+
+/* Animations and transitions */
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 10%;
+  }
+}
+
+/* ----------- */
