@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-h1 {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-.social {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
 @keyframes slidein {
   from {
     margin-left: 100%;
