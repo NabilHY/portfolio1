@@ -65,6 +65,8 @@ header > ul > li {
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 80px;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .header-section > h1 {
