@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.social {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 10%;
+  }
+}
+
 body {
   background-color: #e5e5e5;
 }
@@ -64,18 +84,21 @@ header > ul > li {
   margin-left: 97px;
   padding-left: 150px;
   padding-right: 150px;
+  width: 80%;
 }
 
 .header-section > ul {
   margin-left: 97px;
   padding-left: 150px;
   padding-right: 150px;
+  width: 80%;
 }
 
 .header-section > span {
   margin-left: 97px;
   padding-left: 150px;
   padding-right: 150px;
+  width: 80%;
 }
 
 .description {
