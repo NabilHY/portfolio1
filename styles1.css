@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 10%;
+  }
+}
+
 body {
   background-color: #e5e5e5;
 }
@@ -45,6 +55,8 @@ header > ul > li {
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 80px;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 h1 {
@@ -69,6 +81,7 @@ h1 {
   margin-left: 97px;
   padding-left: 150px;
   padding-right: 150px;
+  width: 80%;
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -77,12 +90,14 @@ h1 {
   margin-left: 97px;
   padding-left: 150px;
   padding-right: 150px;
+  width: 80%;
 }
 
 .header-section > span {
   margin-left: 97px;
   padding-left: 150px;
   padding-right: 150px;
+  width: 80%;
 }
 
 .description {
