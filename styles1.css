@@ -139,8 +139,8 @@ h1 {
   list-style: none;
   justify-content: space-between;
   font-size: 14px;
-  color: #6070ff;
-  background-color: #ebebff;
+  color: #515CE1;
+  background-color: #EBEBFF;
   width: 83px;
   height: 40px;
   margin-left: 10px;
@@ -234,7 +234,7 @@ textarea {
 
 .form > button:hover {
   background-color: rgba(34, 48, 210, 1);
-  border: 1px solid #6070ff;
+  border: 1px solid #6071C5;
   color: #fff;
   margin-left: 20px;
   margin-bottom: 10px;
@@ -246,7 +246,7 @@ textarea {
 
 .about > div > button:hover {
   background-color: rgba(34, 48, 210, 1);
-  border: 1px solid #6070ff;
+  border: 1px solid #6071C5;
   color: #fff;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -257,7 +257,7 @@ textarea {
 
 .project:hover {
   background-color: rgba(34, 48, 210, 1);
-  border: 1px solid #6070ff;
+  border: 1px solid #6071C5;
   color: #fff;
   margin-bottom: 10px;
   border-radius: 10px;
