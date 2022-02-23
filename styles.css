@@ -41,7 +41,7 @@ header > img {
 
 header > h2 {
   font-family: "Poppins", sans-serif;
-  color: #6070ff;
+  color: #6071c5;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -83,7 +83,7 @@ h1 {
 }
 
 .connect {
-  color: #7f8cff;
+  color: #6366ee;
   font-size: 15px;
   font-family: "poppins", sans-serif;
   margin-top: 10px;
@@ -154,7 +154,7 @@ h1 {
 .soft-color {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
-  color: #7a86aa;
+  color: #5470d6;
 }
 
 .works > p {
@@ -170,7 +170,7 @@ h1 {
 
 form > button {
   background-color: #fff;
-  border: 1px solid #6070ff;
+  border: 1px solid #6071c5;
   margin-left: 20px;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -211,7 +211,7 @@ form > button {
 
 .project {
   background-color: #fff;
-  border: 1px solid #6070ff;
+  border: 1px solid #6071c5;
   margin-left: 10px;
   border-radius: 10px;
   width: 45%;
@@ -233,7 +233,7 @@ form > button {
   padding-bottom: 120px;
 }
 
-.about > div > h1 {
+.about > div > h2 {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 900;
@@ -253,7 +253,7 @@ form > button {
 
 .about > div > button {
   background-color: #fff;
-  border: 1px solid #6070ff;
+  border: 1px solid #6071c5;
   margin-bottom: 10px;
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
@@ -263,9 +263,9 @@ form > button {
 }
 
 form > button:hover {
-  background-color: rgba(34, 48, 210, 1);
-  border: 1px solid #6070ff;
-  color: #fff;
+  background-color: #e0e9ec;
+  border: 1px solid #6071c5;
+  color: #1e52d9;
   margin-left: 20px;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -276,7 +276,7 @@ form > button:hover {
 
 form > button:active {
   background-color: #2230d2;
-  border: 1px solid #6070ff;
+  border: 1px solid #6071c5;
   margin-left: 20px;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -288,7 +288,7 @@ form > button:active {
 
 .about > div > button:hover {
   background-color: rgba(34, 48, 210, 1);
-  border: 1px solid #6070ff;
+  border: 1px solid#6071C5;
   color: #fff;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -352,7 +352,7 @@ form > button:active {
   border-top-left-radius: 100px;
   padding: 120px 15px 0 15px;
   margin-top: -70px;
-  background-color: #6070ff;
+  background-color: #7310e5;
   background-image: url(contactformshapes-mobile.svg);
   background-repeat: no-repeat;
   background-position: top right;
@@ -404,6 +404,10 @@ textarea {
   padding-top: 10px;
   margin-bottom: 20px;
   margin-left: 15px;
+}
+
+.hide-label {
+  visibility: hidden;
 }
 
 .deskFrame {
