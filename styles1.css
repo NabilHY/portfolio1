@@ -232,6 +232,10 @@ textarea {
   text-align: center;
 }
 
+.hide-label {
+  visibility: hidden;
+}
+
 .form > button:hover {
   background-color: rgba(34, 48, 210, 1);
   border: 1px solid #6071c5;

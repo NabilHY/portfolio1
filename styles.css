@@ -406,6 +406,10 @@ textarea {
   margin-left: 15px;
 }
 
+.hide-label {
+  visibility: hidden;
+}
+
 .deskFrame {
   display: flex;
   flex-direction: row;
