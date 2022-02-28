@@ -14,6 +14,7 @@ ham.addEventListener('click', function () {
 menuTag.forEach(elem => {
   elem.addEventListener('click', function() {
     menu.classList.add('none');
+
   })
 })
 
