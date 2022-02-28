@@ -3,17 +3,16 @@ const ham = document.querySelector('.ham');
 const menu = document.querySelector('.mobile-menu');
 const menuTag = document.querySelectorAll('.mobile-menu a');
 
-btn.addEventListener('click', function () {
+btn.addEventListener('click', () => {
   menu.classList.toggle('none');
 });
 
-ham.addEventListener('click', function () {
+ham.addEventListener('click', () => {
   menu.classList.toggle('none');
 });
 
 menuTag.forEach((elem) => {
-  elem.addEventListener('click', function () {
+  elem.addEventListener('click', () => {
     menu.classList.add('none');
   });
 });
-
