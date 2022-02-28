@@ -1,20 +1,19 @@
-let btn = document.querySelector('.mobile-menu-btn');
-let ham = document.querySelector('.ham');
-let menu = document.querySelector('.mobile-menu');
-let menuTag = document.querySelectorAll('.mobile-menu a');
+const btn = document.querySelector('.mobile-menu-btn');
+const ham = document.querySelector('.ham');
+const menu = document.querySelector('.mobile-menu');
+const menuTag = document.querySelectorAll('.mobile-menu a');
 
-btn.addEventListener('click', function () {
+btn.addEventListener('click', function (elem) {
   menu.classList.toggle('none');
 });
 
-ham.addEventListener('click', function () {
+ham.addEventListener('click', function (elem) {
   menu.classList.toggle('none');
 });
 
 menuTag.forEach(elem => {
-  elem.addEventListener('click', function() {
+  elem.addEventListener('click', function(elem) {
     menu.classList.add('none');
-
-  })
-})
+  });
+});
 
