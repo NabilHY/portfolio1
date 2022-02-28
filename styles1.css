@@ -18,6 +18,10 @@ body {
   background-color: #e5e5e5;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 header {
   display: flex;
   justify-content: space-around;

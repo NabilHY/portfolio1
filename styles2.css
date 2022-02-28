@@ -8,6 +8,10 @@ header > img {
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 .header-section {
   padding: 80px 80px 80px 150px;
   width: 100%;
