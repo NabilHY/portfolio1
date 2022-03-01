@@ -18,6 +18,10 @@ body {
   background-color: #e5e5e5;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 header {
   display: flex;
   justify-content: space-around;
@@ -31,7 +35,7 @@ header > img {
 
 header > ul {
   display: flex;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   font-weight: 500;
   font-size: 15px;
   list-style: none;
@@ -49,24 +53,24 @@ header > ul > li {
 .header-section {
   padding: 20px;
   width: 100%;
-  background-image: url("background/Headerbgrer.svg");
+  background-image: url('background/Headerbgrer.svg');
   background-repeat: no-repeat;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 80px;
   animation-duration: 3s;
-  animation-name: slidein;
 }
 
 h1 {
-  animation-duration: 3s;
-  animation-name: slidein;
+  /* animation-duration: 3s; */
+
+  /* animation-name: slidein; */
 }
 
 .header-section > h1 {
   color: #172b4d;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   font-weight: bold;
   font-size: 48px;
   letter-spacing: 0.37px;
@@ -82,8 +86,10 @@ h1 {
   padding-left: 150px;
   padding-right: 150px;
   width: 80%;
-  animation-duration: 3s;
-  animation-name: slidein;
+
+  /* animation-duration: 3s; */
+
+  /* animation-name: slidein; */
 }
 
 .header-section > ul {
@@ -128,7 +134,7 @@ h1 {
 }
 
 .works > div > p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
 
@@ -199,8 +205,8 @@ h1 {
   margin: auto;
 }
 
-input[type="text"],
-[type="email"] {
+input[type='text'],
+[type='email'] {
   border: 1px solid #cfd8dc;
   color: #172b4d;
   border-radius: 8px;
@@ -211,7 +217,7 @@ input[type="text"],
 }
 
 textarea {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   font-style: normal;
   width: 50%;
   height: 150px;
@@ -243,7 +249,7 @@ textarea {
   margin-left: 20px;
   margin-bottom: 10px;
   border-radius: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   padding: 10px;
 }
@@ -254,7 +260,7 @@ textarea {
   color: #fff;
   margin-bottom: 10px;
   border-radius: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   padding: 10px;
 }
@@ -265,7 +271,7 @@ textarea {
   color: #fff;
   margin-bottom: 10px;
   border-radius: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   padding: 10px;
 }
