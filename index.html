@@ -159,24 +159,25 @@
       </p>
     </div>
 
-    <div class="inputs">
-      <form action="https://formspree.io/f/xeqngele" method="post">
-        <ul>
+    <div>
+      <form class="form" action="https://formspree.io/f/xeqngele" method="post">
+        <ul class="inputs">
           <li>
-            <label for="username" class="hide-label">Username</label>
-            <input id="username" type="text" name="username" placeholder="Enter your username" maxlength="30"
+            <input id="username" type="text" aria-label="username" name="username" placeholder="Enter your username" maxlength="30"
               required />
           </li>
           <li>
-            <label for="email" class="hide-label">Email</label>
-            <input id="email" type="email" name="email" placeholder="Enter your email address" required />
+            <input id="email" type="email" aria-label="Email" name="email" placeholder="Enter your email address" required />
+            <small class="error"></small>
+          </li>
+          
+          <li>
+            <textarea id="message" aria-label="message" placeholder="Write a message here" maxlength="500" required></textarea>
           </li>
           <li>
-            <label for="message" class="hide-label">Message</label>
-            <textarea id="message" placeholder="Write a message here" maxlength="500" required></textarea>
+            <button type="submit" id="submit-button">Get in Touch</button>
           </li>
         </ul>
-        <button type="submit" id="submit-button">Get in Touch</button>
       </form>
     </div>
   </footer>
