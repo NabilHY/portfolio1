@@ -10,6 +10,7 @@ html {
 
 body {
   background-color: #e5e5e5;
+  position: relative;
 }
 
 header {
@@ -137,6 +138,22 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-left: 10px;
+  max-height: 80px;
+}
+
+.modalfr li {
+  list-style: none;
+  font-size: 14px;
+  color: #6070ff;
+  background-color: #ebebff;
+  width: 20%;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
 }
 
 .points {
@@ -500,4 +517,84 @@ textarea {
   }
 }
 
-/* ----------- */
+/* -Project Modal- */
+
+.modal-container {
+  display: none;
+  position: fixed;
+  background-color: #c1c7d0c7;
+  border-radius: 16px;
+  z-index: 6;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding: 50px 16px;
+  overflow: auto;
+}
+
+.modal-layer {
+  background-color: #fff;
+  margin: auto;
+  max-width: 100%;
+  position: relative;
+  padding: 18px 16px;
+  border-radius: 16px;
+}
+
+.modal-container-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-container-top h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  color: #172b4d;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.modal-description {
+  padding-top: 12px;
+  font-family: 'poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #172b4d;
+  line-height: 36px;
+}
+
+.modalfr {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+.modalButtons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 40px;
+}
+
+.modalbutton {
+  display: flex;
+  align-items: center;
+  width: 110%;
+  gap: 10px;
+  flex: 1;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #6071c5;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #396df2;
+  padding: 10px;
+}
+
+.active {
+  display: flex;
+}

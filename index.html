@@ -1,380 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        window.dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'G-K9VLE0WJP3');
-    </script>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="styles1.css"
-      media="screen and (min-width:992px)"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="styles2.css"
-      media="screen and (min-width:400px) and (max-width:991px)"
-    />
-    <script
-      src="https://kit.fontawesome.com/eb9ab0d66a.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Portfolio's Main Page</title>
-  </head>
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-  <body>
-    <header>
-      <h2 class="logo">My logo</h2>
-      <img src="images/Union.png" class="ham" alt="hamburger" />
+    gtag('config', 'G-K9VLE0WJP3');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="styles1.css" media="screen and (min-width:992px)" />
+  <link rel="stylesheet" type="text/css" href="styles2.css"
+    media="screen and (min-width:400px) and (max-width:991px)" />
+  <script src="https://kit.fontawesome.com/eb9ab0d66a.js" crossorigin="anonymous"></script>
+  <title>Portfolio's Main Page</title>
+</head>
+
+<body>
+  <header>
+    <h2 class="logo">My logo</h2>
+    <img src="images/Union.png" class="ham" alt="hamburger" />
+    <ul>
+      <li>Portfolio</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+
+    <nav class="mobile-menu none">
+      <button type="button" class="mobile-menu-btn">
+        <img src="images/cross.svg" alt="hamburger" />
+      </button>
       <ul>
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
+    </nav>
+  </header>
 
-      <nav class="mobile-menu none">
-        <button type="button" class="mobile-menu-btn">
-          <img src="images/cross.svg" alt="hamburger" />
-        </button>
-        <ul>
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+  <section class="header-section">
+    <h1>I'm Nabil<br />Glad to see you!</h1>
+    <p>
+      I'm a software developer! I can help you build a product , feature or
+      website Look through some of my work and experience! If you like what
+      you see and have a project you need coded, don't hestiate to contact me.
+    </p>
+    <span class="connect">LET'S CONNECT</span>
+    <ul class="social">
+      <li>
+        <a href="https://twitter.com/NeoNabil2"><img class="icons" src="images/twitter.png"
+            alt="Access to Twitter Account" /></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/"><img class="icons" src="images/Linkedinicon.png"
+            alt="Access to LinkedIn Account" /></a>
+      </li>
+      <li>
+        <a href="https://medium.com/"><img class="icons" src="images/medium.png" alt="Access to Meduim Account" /></a>
+      </li>
+      <li>
+        <a href="https://github.com/NabilHY"><img class="icons" src="images/github.png"
+            alt="Access to GitHub Account" /></a>
+      </li>
+      <li>
+        <a href="https://angel.co/"><img class="icons" src="images/angellist.png"
+            alt="Access to Angellist Account" /></a>
+      </li>
+    </ul>
+  </section>
 
-    <section  class="header-section">
-      <h1>I'm Nabil<br />Glad to see you!</h1>
-      <p>
-        I'm a software developer! I can help you build a product , feature or
-        website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don't hestiate to contact me.
+  <section id="portfolio" class="works">
+    <div>
+      <img class="scaling" src="images/SnapshootPortfolio(1).png" alt="Screenshot of the tonic project" />
+    </div>
+    <div class="points">
+      <h2>Tonic</h2>
+      <div class="dots">
+        <p>CANOPY</p>
+        <img class="tonic" src="images/Counter.png" alt="counter" />
+        <p class="soft-color">Back End Dev</p>
+        <img class="tonic" src="images/Counter.png" alt="counter" />
+        <p class="soft-color">2015</p>
+      </div>
+      <p class="description">
+        A daily selection of privately personalized reads; no accounts or
+        sign-ups required.
       </p>
-      <span class="connect">LET'S CONNECT</span>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li class="JS">Javascript</li>
+      </ul>
+      <button data-id="0" class="project" type="button">See Project</button>
+    </div>
+  </section>
+
+  <section class="works">
+    <div class="second">
+      <img class="scaling" src="images/SnapshootPortfolio(3).png" alt="Screenshot of the Multi-Post Stories project" />
+    </div>
+    <div class="first points">
+      <h2>Multi-Post Stories</h2>
+      <div class="dots">
+        <p>CANOPY</p>
+        <img class="tonic" src="images/Counter.png" alt="counter" />
+        <p class="soft-color">Back End Dev</p>
+        <img class="tonic" src="images/Counter.png" alt="counter" />
+        <p class="soft-color">2015</p>
+      </div>
+      <p class="description">
+        A daily selection of privately personalized reads; no accounts or sign-ups required.
+      </p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li class="JS">Javascript</li>
+      </ul>
+      <button class="project" data-id="1" type="button">See Project</button>
+    </div>
+  </section>
+
+  <section class="works">
+    <div>
+      <img class="scaling" src="images/SnapshootPortfolio(4).png" alt="Screenshot of the tonic project" />
+    </div>
+    <div class="points">
+      <h2>Tonic</h2>
+      <div class="dots">
+        <p>CANOPY</p>
+        <img class="tonic" src="images/Counter.png" alt="counter" />
+        <p class="soft-color">Back End Dev</p>
+        <img class="tonic" src="images/Counter.png" alt="counter" />
+        <p class="soft-color">2015</p>
+      </div>
+      <p class="description">
+        A daily selection of privately personalized reads; no accounts or
+        sign-ups required.
+      </p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ul>
+      <button class="project" data-id="2"  type="button">See Project</button>
+    </div>
+  </section>
+
+  <section class="works">
+    <div class="second">
+      <img class="scaling" src="images/SnapshootPortfolio(5).png" alt="Screenshot of the Multi-Post Stories project" />
+    </div>
+    <div class="first points">
+      <h2>Multi-Post Stories</h2>
+      <div class="dots">
+        <p>CANOPY</p>
+        <img class="tonic" src="images/Counter.png" alt="counter" />
+        <p class="soft-color">Back End Dev</p>
+        <img class="tonic" src="images/Counter.png" alt="counter" />
+        <p class="soft-color">2015</p>
+      </div>
+      <p class="description">
+        A daily selection of privately personalized reads; no accounts or
+        sign-ups required.
+      </p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li class="JS">Javascript</li>
+      </ul>
+      <button class="project" data-id="3" type="button">See Project</button>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="deskAbout">
+      <h2>About<br />Myself</h2>
+      <p>
+        Hello I'm a software developer! I can help you build a product ,
+        feature or website Look through some of my work and experience! If you
+        like what you see and have a project you need coded, don't hestiate to
+        contact me.
+      </p>
+      <h3 class="connect">LET'S CONNECT</h3>
       <ul class="social">
         <li>
-          <a href="https://twitter.com/NeoNabil2"
-            ><img
-              class="icons"
-              src="images/twitter.png"
-              alt="Access to Twitter Account"
-          /></a>
+          <a href="https://twitter.com/NeoNabil2"><img class="icons" src="images/twitter.png"
+              alt="Access to Twitter Account" /></a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/"
-            ><img
-              class="icons"
-              src="images/Linkedinicon.png"
-              alt="Access to LinkedIn Account"
-          /></a>
+          <a href="https://www.linkedin.com/"><img class="icons" src="images/Linkedinicon.png"
+              alt="Access to LinkedIn Account" /></a>
         </li>
         <li>
-          <a href="https://medium.com/"
-            ><img
-              class="icons"
-              src="images/medium.png"
-              alt="Access to Meduim Account"
-          /></a>
+          <a href="https://medium.com/"><img class="icons" src="images/medium.png" alt="Access to Medium Account" /></a>
         </li>
         <li>
-          <a href="https://github.com/NabilHY"
-            ><img
-              class="icons"
-              src="images/github.png"
-              alt="Access to GitHub Account"
-          /></a>
+          <a href="https://github.com/NabilHY"><img class="icons" src="images/github.png"
+              alt="Access to Github Account" /></a>
         </li>
         <li>
-          <a href="https://angel.co/"
-            ><img
-              class="icons"
-              src="images/angellist.png"
-              alt="Access to Angellist Account"
-          /></a>
+          <a href="https://angel.co/"><img class="icons" src="images/angellist.png"
+              alt="Access to Angellist Account" /></a>
         </li>
       </ul>
-    </section>
-
-    <section id="portfolio" class="works">
-      <div>
-        <img
-          class="scaling"
-          src="images/SnapshootPortfolio(1).png"
-          alt="Screenshot of the tonic project"
-        />
-      </div>
-      <div class="points">
-        <h2>Tonic</h2>
-        <div class="dots">
-          <p>CANOPY</p>
-          <img class="tonic" src="images/Counter.png" alt="counter" />
-          <p class="soft-color">Back End Dev</p>
-          <img class="tonic" src="images/Counter.png" alt="counter" />
-          <p class="soft-color">2015</p>
-        </div>
-        <p class="description">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li class="JS">Javascript</li>
-        </ul>
-        <button class="project" type="button">See Project</button>
-      </div>
-    </section>
-
-    <section class="works">
-      <div class="second">
-        <img
-          class="scaling"
-          src="images/SnapshootPortfolio(3).png"
-          alt="Screenshot of the Multi-Post Stories project"
-        />
-      </div>
-      <div class="first points">
-        <h2>Multi-Post Stories</h2>
-        <div class="dots">
-          <p>CANOPY</p>
-          <img class="tonic" src="images/Counter.png" alt="counter" />
-          <p class="soft-color">Back End Dev</p>
-          <img class="tonic" src="images/Counter.png" alt="counter" />
-          <p class="soft-color">2015</p>
-        </div>
-        <p class="description">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li class="JS">Javascript</li>
-        </ul>
-        <button class="project" type="button">See Project</button>
-      </div>
-    </section>
-
-    <section class="works">
-      <div>
-        <img
-          class="scaling"
-          src="images/SnapshootPortfolio(4).png"
-          alt="Screenshot of the tonic project"
-        />
-      </div>
-      <div class="points">
-        <h2>Tonic</h2>
-        <div class="dots">
-          <p>CANOPY</p>
-          <img class="tonic" src="images/Counter.png" alt="counter" />
-          <p class="soft-color">Back End Dev</p>
-          <img class="tonic" src="images/Counter.png" alt="counter" />
-          <p class="soft-color">2015</p>
-        </div>
-        <p class="description">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-        </ul>
-        <button class="project" type="button">See Project</button>
-      </div>
-    </section>
-
-    <section class="works">
-      <div class="second">
-        <img
-          class="scaling"
-          src="images/SnapshootPortfolio(5).png"
-          alt="Screenshot of the Multi-Post Stories project"
-        />
-      </div>
-      <div class="first points">
-        <h2>Multi-Post Stories</h2>
-        <div class="dots">
-          <p>CANOPY</p>
-          <img class="tonic" src="images/Counter.png" alt="counter" />
-          <p class="soft-color">Back End Dev</p>
-          <img class="tonic" src="images/Counter.png" alt="counter" />
-          <p class="soft-color">2015</p>
-        </div>
-        <p class="description">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li class="JS">Javascript</li>
-        </ul>
-        <button class="project" type="button">See Project</button>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="deskAbout">
-        <h2>About<br />Myself</h2>
-        <p>
-          Hello I'm a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don't hestiate to
-          contact me.
-        </p>
-        <h3 class="connect">LET'S CONNECT</h3>
-        <ul class="social">
-          <li>
-            <a href="https://twitter.com/NeoNabil2"
-              ><img
-                class="icons"
-                src="images/twitter.png"
-                alt="Access to Twitter Account"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/"
-              ><img
-                class="icons"
-                src="images/Linkedinicon.png"
-                alt="Access to LinkedIn Account"
-            /></a>
-          </li>
-          <li>
-            <a href="https://medium.com/"
-              ><img
-                class="icons"
-                src="images/medium.png"
-                alt="Access to Medium Account"
-            /></a>
-          </li>
-          <li>
-            <a href="https://github.com/NabilHY"
-              ><img
-                class="icons"
-                src="images/github.png"
-                alt="Access to Github Account"
-            /></a>
-          </li>
-          <li>
-            <a href="https://angel.co/"
-              ><img
-                class="icons"
-                src="images/angellist.png"
-                alt="Access to Angellist Account"
-            /></a>
-          </li>
-        </ul>
-        <button type="button">Get My resume</button>
-      </div>
-      <div class="deskFrame">
+      <button type="button">Get My resume</button>
+    </div>
+    <div class="deskFrame">
+      <div class="languages">
+        Languages
         <div class="languages">
-          Languages
-          <div class="languages">
-            <span><img src="images/javascript.png" alt="Javascript" /></span>
-            <p>Javascript</p>
-          </div>
-          <div class="languages">
-            <span><img src="images/html.png" alt="HTML" /></span>
-            <p>HTML5</p>
-          </div>
-          <div class="languages">
-            <span><img src="images/css.png" alt="CSS" /></span>
-            <p>CSS3</p>
-          </div>
-          <div class="languages">Frameworks</div>
-          <div class="skills">Skills</div>
+          <span><img src="images/javascript.png" alt="Javascript" /></span>
+          <p>Javascript</p>
         </div>
-        <div class="arrows">
+        <div class="languages">
+          <span><img src="images/html.png" alt="HTML" /></span>
+          <p>HTML5</p>
+        </div>
+        <div class="languages">
+          <span><img src="images/css.png" alt="CSS" /></span>
+          <p>CSS3</p>
+        </div>
+        <div class="languages">Frameworks</div>
+        <div class="skills">Skills</div>
+      </div>
+      <div class="arrows">
+        <i class="fa-solid fa-angle-down"></i>
+        <div>
           <i class="fa-solid fa-angle-down"></i>
-          <div>
-            <i class="fa-solid fa-angle-down"></i>
-            <i class="fa-solid fa-angle-down"></i>
-          </div>
+          <i class="fa-solid fa-angle-down"></i>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="contact-me" id="contact">
-      <div class="contacttext">
-        <h2>Contact me</h2>
-        <p>
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I'd love to help
-          with it
-        </p>
-      </div>
+  <footer class="contact-me" id="contact">
+    <div class="contacttext">
+      <h2>Contact me</h2>
+      <p>
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I'd love to help
+        with it
+      </p>
+    </div>
 
-      <div class="inputs">
-        <form action="https://formspree.io/f/xeqngele" method="post">
-          <ul>
-            <li>
-              <label for="username" class="hide-label">Username</label>
-              <input
-                id="username"
-                type="text"
-                name="username"
-                placeholder="Enter your username"
-                maxlength="30"
-                required
-              />
-            </li>
-            <li>
-              <label for="email" class="hide-label">Email</label>
-              <input
-                id="email"
-                type="email"
-                name="email"
-                placeholder="Enter your email address"
-                required
-              />
-            </li>
-            <li>
-              <label for="message" class="hide-label">Message</label>
-              <textarea
-                id="message"
-                placeholder="Write a message here"
-                maxlength="500"
-                required
-              ></textarea>
-            </li>
-          </ul>
-          <button type="submit" id="submit-button">Get in Touch</button>
-        </form>
-      </div>
-    </footer>
+    <div class="inputs">
+      <form action="https://formspree.io/f/xeqngele" method="post">
+        <ul>
+          <li>
+            <label for="username" class="hide-label">Username</label>
+            <input id="username" type="text" name="username" placeholder="Enter your username" maxlength="30"
+              required />
+          </li>
+          <li>
+            <label for="email" class="hide-label">Email</label>
+            <input id="email" type="email" name="email" placeholder="Enter your email address" required />
+          </li>
+          <li>
+            <label for="message" class="hide-label">Message</label>
+            <textarea id="message" placeholder="Write a message here" maxlength="500" required></textarea>
+          </li>
+        </ul>
+        <button type="submit" id="submit-button">Get in Touch</button>
+      </form>
+    </div>
+  </footer>
 
-    <script src="js/main.js"></script>
-  </body>
+  <!-- project modal -->
+  <div class="modal-container">
+
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
 </html>
