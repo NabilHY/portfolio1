@@ -205,15 +205,22 @@ h1 {
   margin: auto;
 }
 
-input[type='text'],
-[type='email'] {
+input[type='text'] {
   border: 1px solid #cfd8dc;
   color: #172b4d;
   border-radius: 8px;
   width: 50%;
   height: 48px;
-  margin-bottom: 20px;
-  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+input[type='email'] {
+  border: 1px solid #cfd8dc;
+  color: #172b4d;
+  border-radius: 8px;
+  width: 50%;
+  margin-bottom: 10px;
+  height: 48px;
 }
 
 textarea {
@@ -229,7 +236,6 @@ textarea {
   padding-left: 10px;
   padding-top: 10px;
   margin-bottom: 20px;
-  margin-left: 15px;
 }
 
 .inputs {
@@ -305,8 +311,6 @@ textarea {
   left: 0;
   top: 0;
   height: 100%;
-
-  /* margin: 77px 50px; */
   width: auto;
   padding: 20px 16px;
   overflow: auto;
