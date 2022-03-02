@@ -297,6 +297,7 @@ textarea {
 .desktop-modal-container {
   display: flex;
   flex-direction: column;
+
   /* position: fixed; */
   background-color: #fff;
   border-radius: 16px;
@@ -304,6 +305,7 @@ textarea {
   left: 0;
   top: 0;
   height: 100%;
+
   /* margin: 77px 50px; */
   width: auto;
   padding: 20px 16px;
