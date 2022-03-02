@@ -42,11 +42,7 @@ function generateWorks({
       </div>
       <p class="description">${description}</p>
       <ul>
-      ${tech.map(
-    (tech) => `<li>
-            ${tech}
-          </li>`,
-  )}
+      ${tech.map((tech) => `<li>${tech}</li>`).join('')}
       </ul>
       <button data-id="${index}" class="project" type="button">See Project</button>
     </div>
