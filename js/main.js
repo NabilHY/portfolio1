@@ -137,14 +137,52 @@ function handleMailValidation(input, msg) {
   const inputVal = input.value.trim().toLowerCase();
   if (inputVal !== input.value.trim()) {
     displayErr(input, msg);
-  } else {
-    displayErr(input, '');
-    form.submit();
+    return false;
   }
+  displayErr(input, '');
+  return true;
 }
 
+// local Storage
+
+function createUserData(formElement) {
+  return {
+    username: formElement.elements.username.value.trim(),
+    email: formElement.elements.email.value.trim(),
+    message: formElement.elements.message.value.trim(),
+  };
+}
+
+function storeInfo(formElement) {
+  localStorage.setItem('userInfo', JSON.stringify(createUserData(formElement)));
+}
+
+// submit form
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
-  handleMailValidation(form.elements.email, MAIL_ERROR);
+  const submit = handleMailValidation(form.elements.email, MAIL_ERROR);
+
+  if (submit) {
+    storeInfo(form);
+    form.submit();
+  }
 });
+
+// load form with data from local storage
+function mapDataForm(data) {
+  if (Object.entries(data).length > 0) {
+    const { username, email, message } = data;
+    form.elements.username.value = username;
+    form.elements.email.value = email;
+    form.elements.message.value = message;
+  }
+}
+
+function loadFormData() {
+  const userData = localStorage.length > 0 ? JSON.parse(localStorage.getItem('userInfo')) : {};
+
+  mapDataForm(userData);
+}
+
+loadFormData();
