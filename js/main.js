@@ -20,7 +20,7 @@ menuTag.forEach((elem) => {
 });
 
 // works section
-const workContainer = document.querySelector('.works-container');
+const workContainer = document.querySelector('works-container');
 
 function generateWorks({
   name, tech, ImgUrl, description,
@@ -66,7 +66,7 @@ function generateModal({
   ImgUrl, name, description, tech, demoUrl, gitUrl,
 }) {
   const modal = document.createElement('div');
-  modal.classList.add('modal-layer');
+  modal.classList.add('.modal-layer');
   modal.innerHTML = `
   <div class="desktop-modal-container">
     <div class="modal-container-top">
@@ -104,7 +104,7 @@ function generateModal({
   </div>
   </div>
     `;
-  modalContainer.appendChild(modal);
+  modalContainer.appendChild('.modal');
 }
 function closeBtn() {
   document.querySelector('.cross').addEventListener('click', () => {
@@ -161,18 +161,21 @@ function storeInfo(formElement) {
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
-  const submit = handleMailValidation(form.elements.email, MAIL_ERROR);
+  handleMailValidation(form.elements.email, MAIL_ERROR);
 
-  if (submit) {
-    storeInfo(form);
-    form.submit();
-  }
-});
+  Array.from(form.elements).forEach((elem) => {
+    elem.addEventListener('input', () => {
+      storeInfo(form);
+    });
+  });
+
 
 // load form with data from local storage
 function mapDataForm(data) {
   if (Object.entries(data).length > 0) {
-    const { username, email, message } = data;
+    const {
+      username, email, message,
+    } = data;
     form.elements.username.value = username;
     form.elements.email.value = email;
     form.elements.message.value = message;
@@ -185,4 +188,12 @@ function loadFormData() {
   mapDataForm(userData);
 }
 
-loadFormData();
+loadFormData();bmit();
+  }
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  handleMailValidation(form.elements.email, MAIL_ERROR);
+});
