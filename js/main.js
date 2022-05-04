@@ -34,11 +34,11 @@ function generateWorks({
     <div class="points">
       <h2>${name}</h2>
       <div class="dots">
-        <p>CANOPY</p>
+        <p>Microverse</p>
         <img class="tonic" src="images/Counter.png" alt="counter" />
-        <p class="soft-color">Back End Dev</p>
+        <p class="soft-color">Front End Dev</p>
         <img class="tonic" src="images/Counter.png" alt="counter" />
-        <p class="soft-color">2015</p>
+        <p class="soft-color">2022</p>
       </div>
       <p class="description">${description}</p>
       <ul>

@@ -1,40 +1,32 @@
 const workData = [
   {
-    name: 'Tonic',
+    name: 'To-Do-List',
     description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLore",
-    ImgUrl: 'SnapshootPortfolio(1).png',
+        'A To-Do List project from Microverse. It simply lists the things that needs to be done and allows the user to mark them as complete',
+    ImgUrl: '../screenshots/Screenshottodo.png',
     tech: ['HTML', 'css', 'javascript'],
-    demoUrl: 'https://nabilhy.github.io/portfolio1/',
-    gitUrl: 'https://github.com/NabilHY/portfolio1',
+    demoUrl: 'nabilhy.github.io/to-do-list/',
+    gitUrl: 'https://github.com/NabilHY/To-Do-List',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Real-Madrid Summit',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLore",
-    ImgUrl: 'SnapshootPortfolio(3).png',
+      "In this Microverse capstone project , I'm going an online website for a Global summit , based on all the technical skills that I've learned during my time in Microverse so far.",
+    ImgUrl: '../screenshots/Screenshot2022-03-10230030.png',
     tech: ['HTML', 'css', 'javascript'],
-    demoUrl: 'https://nabilhy.github.io/portfolio1/',
-    gitUrl: 'https://github.com/NabilHY/portfolio1',
+    demoUrl: 'https://nabilhy.github.io/RM-global-summit/',
+    gitUrl: 'https://github.com/NabilHY/RM-global-summit',
   },
   {
-    name: 'Tonic',
+    name: 'Awesome Books',
     description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLore",
-    ImgUrl: 'SnapshootPortfolio(4).png',
+        'Awesome books is a simple website that displays a list of books and allows you to add and remove books from that list. Building this apl data using JavaScript. Loading dynamic content using navigation links',
+    ImgUrl: '../screenshots/Screenshot(147).png',
     tech: ['HTML', 'css', 'javascript'],
     demoUrl: 'https://nabilhy.github.io/portfolio1/',
-    gitUrl: 'https://github.com/NabilHY/portfolio1',
+    gitUrl: 'https://nabilhy.github.io/awesomeBook/',
   },
-  {
-    name: 'Multi-Post Stories',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLore",
-    ImgUrl: 'SnapshootPortfolio(5).png',
-    tech: ['HTML', 'css', 'javascript'],
-    demoUrl: 'https://nabilhy.github.io/portfolio1/',
-    gitUrl: 'https://github.com/NabilHY/portfolio1',
-  },
+
 ];
 
 export default workData;
